@@ -1,0 +1,192 @@
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: rgb(42, 212, 241);
+  }
+  
+  main {
+      text-align: center; 
+  }
+  
+  h1 {
+      text-align: center;
+      font-size: 120px;
+      font-family: 'PT Sans Narrow', sans-serif;
+      color: rgb(42, 212, 241);
+      padding: 0;
+      border: 0;
+      margin: auto;
+      text-shadow: 2px 1px 3px #000000;
+  }
+  
+  .tagline {
+      text-align: center;
+      font-family: 'Caveat', cursive;
+      font-size: 20px;
+      padding: 3em;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+  }
+  
+  header {
+      margin: 0;
+      padding: 0;
+      font-family: 'PT Sans Narrow', sans-serif;
+      font-weight: lighter;
+      padding: 1em;
+      text-align: center;
+  }
+  
+  h5 {
+      display: block;
+      max-width: 600px;
+      margin: 0 auto 1em;
+      padding: 0%;
+  }
+  
+  img {
+      width: 150px;
+      height: 150px;
+      padding: 70px;
+      padding-top: 15px;
+      margin: auto;
+      border: 45px;
+      display: inline-block;
+     
+  }
+  
+  .gif1 {
+      position: absolute;
+      left: 30px;
+      padding-left: 170px;
+  }
+  
+  .gif2 {
+      position: absolute;
+      right: 30px;
+      top: 30px;
+      padding-right: 170px;
+  }
+  
+  .navbar {
+      background-color: cornsilk;
+      text-align: center;
+      font-family: 'Caveat', cursive;
+      font-weight: bold;
+      box-sizing: border-box;
+      position: relative;
+      border: 1px solid #525252;
+      margin: 0px;
+      padding: 0px;
+      display: inline-block;
+  }
+   
+  .navbar ul {
+      display: inline-flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .navbar ul li {
+      width: 120px;
+      margin: 15px;
+      padding: 15px;
+      display: inline;
+      float: left;
+      position: relative;
+  }
+  
+  ul {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+  }
+  
+  .navbar ul li a {
+      text-decoration: none;
+      color: black;
+  }
+  
+  .active, .navbar ul li:hover {
+      background-color: rgb(86, 86, 231);
+      border-radius: 3px;
+  }
+
+main {
+    text-align: center; 
+}
+
+h6 {
+    font-size: 40px;
+}
+
+div {
+    display: inline-block; 
+    padding: 15px;
+    font-size: 25px;
+}
+  
+div:hover:not(.tag):not(.container):not(.gif1):not(.wrapper):not(.tagline):not(.gif2) {
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(42, 212, 241);
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.tag {
+    font-family: 'Caveat', cursive;
+    color: black;
+}
+
+.price {
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    text-decoration:none; 
+}
+
+  img {
+    border-radius: 15px;
+    padding: 5px;
+    width: 300px;
+    height: 200px 
+}
+
+.footer {
+    color : black;
+    text-decoration : none; 
+    padding-right : 15px;   
+ }
+
+ .footer:hover:not(.places) {
+    text-decoration: underline;
+}
+
+footer{ 
+    padding: 0px;
+    margin: 20px; 
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start 
+}
+    
+ul {
+    list-style: none;
+    color: rgb(42, 212, 241);
+ 
+}
+
+li:hover:not(.places) {
+    text-decoration: underline; 
+}
+
+.places {
+    font-weight: bold
+}
